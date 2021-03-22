@@ -1,0 +1,78 @@
+/* About hotel */
+
+.about-hotel{
+    padding: 20px;
+}
+
+.about-hotel-content{
+    float: left;
+    width: 50%;
+    height: 100%;
+    padding: 30px;
+    line-height: 1.5em;;
+}
+
+.about-hotel-content >h1{
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+
+.about-hotel-img{
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+
+.about-hotel-img>img{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 50%;
+    display: block;
+    margin: auto;
+    min-height: 100%;
+    border-radius: 50%;
+}
+
+
+/* testimonials */
+
+.testimonials{
+    padding: 40px;
+    background: url('../img/test-bg.jpg') no-repeat center center/cover;
+    overflow: hidden;
+}
+
+.testimonials-content>h1{
+    color: #f4f4f4;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 50px;
+    font-weight: 700;
+
+}
+
+.guest{
+    padding: 20px;
+    background-color:rgba(247,192,138,0.8);
+    overflow: auto;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    color: #444;
+}
+
+.guest >img{
+    width:100px;
+    float: left;
+    display: block;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.testimonials-content{
+    float: right;
+    height: 100%;
+}
+
+.guest>p{
+    padding-top: 10px;
+}

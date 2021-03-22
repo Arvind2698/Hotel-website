@@ -1,0 +1,48 @@
+/* contact form */
+
+.contact-form{
+    padding-left: 20px;
+}
+
+.contact-form h1{
+    font-size: 40px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.input-group > label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.input-group > input{
+    width: 60%;
+    height: 30px;
+    margin-bottom: 20px;
+    border: 0.3px solid #333
+}
+
+.input-group > textarea{
+    width: 60%;
+    height: 150px;
+    margin-bottom: 20px;
+    border: 0.3px solid #333
+}
+
+.contact-form button{
+    margin-bottom: 30px;
+}
+
+.contact-form input:focus , .contact-form textarea:focus{
+    outline: none;
+    border: 2px solid;
+    border-color: #f7c08a;;
+}
+
+.contact-card{
+    color: #f3f3f3;
+}
+
+.box{
+    background-color: #444;
+}

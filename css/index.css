@@ -1,0 +1,131 @@
+/* navigation bar */
+
+.menu-list{
+    float: right;
+}
+.logo{
+    font-size: 23px;
+    font-weight: 800;
+    padding: 15.5px;
+    float: left;
+}
+.menu-item{
+    float: left;
+    list-style-type: none;
+}
+
+.menu-item > a{
+    color: #fff;
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+.menu-item > a:hover{
+    background-color: #444;
+    color:#f7c08a;
+}
+
+.nav-bar{
+    background-color: #333;
+    color: #fff;
+    overflow: auto;
+}
+
+
+/* showcase */
+
+.background-img{
+    background: url('../img/showcase.jpg') no-repeat center center/cover;
+    height: 500px;
+}
+
+.show-case{
+    background: url('../img/showcase.jpg') no-repeat center center/cover;
+    height: 500px;
+}
+
+.show-case-content{
+    color: #fff;
+    height: 100%;
+    text-align: center;
+    padding-top: 120px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.show-case-content > h1{
+    font-size: 60px;
+    line-height: 1.2em;
+    padding-bottom: 20px;
+}
+
+/* history */
+
+.lead{
+    font-size: 20px;
+    line-height: 1.5em;;
+    padding-bottom: 20px;
+}
+
+.home-info{
+    height: 400px;
+    overflow: hidden;
+}
+
+.hotel-img{
+    background: url('../img/photo-1.jpg') no-repeat center center/cover;
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+.home-info-content{
+    float: right;
+    width: 50%;
+    text-align: center;
+    color: #fff;
+    height: 100%;
+    padding: 50px 30px;
+}
+
+.home-info-content >a{
+    display: inline-block;
+}
+
+.home-info-content >h1{
+    padding-bottom: 20px;
+}
+
+.home-info-content >p{
+    line-height: 1.5em;;
+    padding-bottom: 20px;
+}
+
+/* amenities box */
+
+.box{
+    float: left;
+    width: 33.33%;
+    height: 100%;
+    text-align: center;
+    padding: 50px;
+}
+
+.box > h3{
+    padding-bottom: 20px;
+}
+
+.box > i{
+    margin-bottom: 10px;
+}
+
+.footer{
+    text-align: center;
+    color: #f4f4f4;
+    padding: 20px;
+    vertical-align: auto;
+}
+
+.footer> p{
+    margin: 0;
+}
